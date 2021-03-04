@@ -24,7 +24,7 @@ Variables
   --clr-primary-7: #ef5350;
   --clr-primary-8: #e57373;
   --clr-primary-9: #ef9a9a;
-  --clr-primary-10:#ffdede;
+  --clr-primary-10:#f3dfdf;
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(210, 12%, 23%);
   --clr-grey-3: hsl(209, 12%, 35%);
@@ -217,7 +217,7 @@ Navbar
   display: flex;
   align-items: center;
   z-index: 200;
-  background-color: var(--clr-primary-10);
+  background-color: var(--clr-grey-10);
 }
 .nav-center {
   width: 90vw;
@@ -242,6 +242,7 @@ Navbar
 }
 .nav-header h2{
   display: block;
+  text-shadow: 3px 3px 6px var(--clr-grey-3);
 }
 .toggle-btn {
   font-size: 2rem;
@@ -272,6 +273,7 @@ Navbar
     text-transform: capitalize;
     color: var(--clr-grey-1);
     font-weight: bold;
+    font-size: 1.3rem;
     letter-spacing: var(--spacing);
     transition: var(--transition);
     padding: 0.5rem 0;
@@ -284,9 +286,6 @@ Navbar
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-  }
-  .nav-header h2{
-    display: none;
   }
 }
 
