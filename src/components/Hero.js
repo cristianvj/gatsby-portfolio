@@ -37,7 +37,7 @@ const Hero = () => {
         </article>
         <Image fluid={fluid} className="hero-img" />
       </div>
-    </header>
+    </header> 
   )
 }
 
